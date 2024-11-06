@@ -1,4 +1,5 @@
 export default function LightSwitch() {
+  
     function handleClick() {
       let bodyStyle = document.body.style;
       if (bodyStyle.backgroundColor === 'black') {
@@ -9,7 +10,7 @@ export default function LightSwitch() {
     }
   
     return (
-      <button onClick={handleClick()}>
+      <button onClick={handleClick}>
         Alterna las luces
       </button>
     );
